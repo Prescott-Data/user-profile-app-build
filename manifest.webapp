@@ -3,8 +3,8 @@
   "appType": "APP",
   "short_name": "user-profile",
   "name": "User Profile",
-  "description": "User Profile App for DHIS2",
-  "version": "100.0.5",
+  "description": "User Profile App for Corelytics",
+  "version": "1.0.0",
   "core_app": true,
   "launch_path": "index.html",
   "plugin_launch_path": "plugin.html",
@@ -18,9 +18,9 @@
     "48": "dhis2-app-icon.png"
   },
   "developer": {
-    "name": "Adheesh Bhatia"
+    "name": "Alan N"
   },
-  "manifest_generated_at": "Mon Nov 25 2024 12:17:56 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Mon Nov 25 2024 12:47:00 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
