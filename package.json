@@ -1,7 +1,7 @@
 {
     "name": "user-profile-app",
-    "version": "100.0.5",
-    "description": "User Profile App for DHIS2",
+    "version": "1.0.0",
+    "description": "User Profile App for Corelytics",
     "license": "BSD-3-Clause",
     "scripts": {
         "build": "d2-app-scripts build",
@@ -26,6 +26,11 @@
         "@dhis2/app-runtime-adapter-d2": "^1.1.0",
         "@dhis2/d2-i18n": "^1.1.0",
         "@dhis2/ui": "^8.11.1",
+        "@emotion/react": "^11.13.5",
+        "@emotion/styled": "^11.13.5",
+        "@mui/icons-material": "^6.1.8",
+        "@mui/material": "^6.1.8",
+        "antd": "^5.22.2",
         "babel-polyfill": "^6.26.0",
         "d2": "^31.9.0",
         "d2-ui": "^29.0.35",
@@ -37,19 +42,19 @@
         "rxjs": "^5.5.7"
     },
     "keywords": [
-        "DHIS2",
+        "Corelytics",
         "App"
     ],
-    "author": "Adheesh Bhatia",
+    "author": "Alan N",
     "directories": {
         "test": "test"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/dhis2/user-profile-app.git"
+        "url": "git+https://github.com/Prescott-Data/user-profile-app.git"
     },
     "bugs": {
-        "url": "https://github.com/dhis2/user-profile-app/issues"
+        "url": "https://github.com/Prescott-Data/user-profile-app/issues"
     },
-    "homepage": "https://github.com/dhis2/user-profile-app"
+    "homepage": "https://github.com/Prescott-Data/user-profile-app"
 }

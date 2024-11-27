@@ -5,11 +5,11 @@
   "name": "user-profile",
   "title": "User Profile",
   "coreApp": true,
-  "version": "100.0.5",
+  "version": "1.0.0",
   "author": {
-    "name": "Adheesh Bhatia"
+    "name": "Alan N"
   },
-  "description": "User Profile App for DHIS2",
+  "description": "User Profile App for Corelytics",
   "entryPoints": {
     "app": "index.html"
   }
