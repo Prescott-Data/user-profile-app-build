@@ -1,7 +1,7 @@
 {
   "short_name": "User Profile",
   "name": "User Profile",
-  "description": "User Profile App for Corelytics",
+  "description": "User Profile App for DHIS2",
   "icons": [
     {
       "src": "android-chrome-192x192.png",

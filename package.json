@@ -1,7 +1,7 @@
 {
     "name": "user-profile-app",
-    "version": "1.0.0",
-    "description": "User Profile App for Corelytics",
+    "version": "100.2.0",
+    "description": "User Profile App for DHIS2",
     "license": "BSD-3-Clause",
     "scripts": {
         "build": "d2-app-scripts build",
@@ -26,11 +26,6 @@
         "@dhis2/app-runtime-adapter-d2": "^1.1.0",
         "@dhis2/d2-i18n": "^1.1.0",
         "@dhis2/ui": "^8.11.1",
-        "@emotion/react": "^11.13.5",
-        "@emotion/styled": "^11.13.5",
-        "@mui/icons-material": "^6.1.8",
-        "@mui/material": "^6.1.8",
-        "antd": "^5.22.2",
         "babel-polyfill": "^6.26.0",
         "d2": "^31.9.0",
         "d2-ui": "^29.0.35",
@@ -39,22 +34,28 @@
         "material-design-icons-iconfont": "^6.1.0",
         "material-ui": "^0.20.0",
         "react-router": "^3.2.1",
-        "rxjs": "^5.5.7"
+        "rxjs": "^5.5.7",
+        "@emotion/react": "^11.13.5",
+        "@emotion/styled": "^11.13.5",
+        "@mui/icons-material": "^6.1.8",
+        "@mui/material": "^6.1.8",
+        "antd": "^5.22.2"
     },
     "keywords": [
-        "Corelytics",
+        "DHIS2",
         "App"
     ],
-    "author": "Alan N",
+    "author": "Adheesh Bhatia",
     "directories": {
         "test": "test"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Prescott-Data/user-profile-app.git"
+        "url": "git+https://github.com/dhis2/user-profile-app.git"
     },
     "bugs": {
-        "url": "https://github.com/Prescott-Data/user-profile-app/issues"
+        "url": "https://github.com/dhis2/user-profile-app/issues"
     },
-    "homepage": "https://github.com/Prescott-Data/user-profile-app"
+    "homepage": "https://github.com/dhis2/user-profile-app",
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
