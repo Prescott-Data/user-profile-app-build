@@ -20663,7 +20663,9 @@ n.m = e, n.amdD = function() {
                 }, le.Z.t("Proceed"))), r.createElement("button", {
                     onClick: this.toggleTechInfoDrawer,
                     className: `jsx-${Nr.__hash} drawerToggle`
-                }, this.state.drawerOpen ? le.Z.t("Hide technical details") : le.Z.t("Show technical details")), r.createElement("div", {
+                }, 
+                this.state.drawerOpen ? le.Z.t("Hide technical details") : le.Z.t("Show technical details")), 
+                r.createElement("div", {
                     className: `jsx-${Nr.__hash} ` + (ye()("drawer", {
                         hidden: !this.state.drawerOpen
                     }) || "")
